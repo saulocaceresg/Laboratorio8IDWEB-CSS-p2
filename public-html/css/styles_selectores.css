@@ -1,0 +1,9 @@
+.contenedor p { /* Para todos los párrafos dentro de .contenedor */
+    background-color: skyblue;
+}
+.contenedor h2 + p { /* Para el <p> adyacente a h2 */
+    background-color: yellow;
+}
+.contenedor h2 ~ p { /* Para todos los <p> que suceden a h2 */
+    color: blue;
+}
