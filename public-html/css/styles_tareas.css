@@ -17,6 +17,6 @@ ol li:hover {
     background-color: #80808065;
 }
 ol li#hecha::after {
-    content: " &bsol;";
-    content: " /";
+    content: " \\/";
+    /* content: " /"; */
 }
