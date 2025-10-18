@@ -1,3 +1,6 @@
+h1 {
+    text-align: center;
+}
 .contenedor p { /* Para todos los párrafos dentro de .contenedor */
     background-color: skyblue;
 }

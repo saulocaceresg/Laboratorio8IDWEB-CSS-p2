@@ -1,0 +1,28 @@
+nav ul {
+    list-style: none;
+    border: 1px solid gray;
+    max-width: 150px;
+    padding: 0;
+    justify-content: space-between;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 8px;
+    margin: 0;
+    /* width: 100%; */
+    display: flex;
+    color: black;
+    font-weight: bold;
+}
+nav ul li:nth-child(odd) {
+    background-color: #fc8658;
+}
+nav ul li:nth-child(even) {
+    background-color: #fdd889;
+}
+nav ul li:nth-child(odd) a:hover {
+    background-color: #fdd88991;
+}
+nav ul li:nth-child(even) a:hover {
+    background-color: #fc865880;
+}

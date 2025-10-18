@@ -3,7 +3,7 @@ h1 {
 }
 
 ol li:nth-child(odd) {
-    background-color: gray;
+    background-color: #a8a3a3;
 }
 /* ol {
     list-style: none;

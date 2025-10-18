@@ -37,3 +37,19 @@ p::first-letter {
     content: "<---";
     color: green;
 }
+
+/* Estilos adicionales */
+.contenedor {
+    max-width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    border: 2px gray solid;
+    background-color: #baffb4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 232, 133);
+}
