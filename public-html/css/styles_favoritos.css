@@ -2,19 +2,26 @@ h1 {
     text-align: center;
 }
 
-a:link {
+.contenido a:link {
     color: green;
     background-color: aquamarine;
 }
-a:visited {
+.contenido a:visited {
     color: purple;
     background-color: #e2dc84;
 }
-a:hover {
+.contenido a:hover {
     color: red;
     background-color: #c7c5c5;
 }
-a:active {
+.contenido a:active {
     color: orange;
     background-color: #f0f076;
+}
+
+/* Estilos adicionales */
+
+body {
+    background-color: rgb(172, 255, 172);
+    font-family: Arial, Helvetica, sans-serif;
 }
